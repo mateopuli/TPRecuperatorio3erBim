@@ -11,6 +11,7 @@ TagManager:
   - NUMERO
   - NPC1
   - Death
+  - Pelota
   layers:
   - Default
   - TransparentFX
