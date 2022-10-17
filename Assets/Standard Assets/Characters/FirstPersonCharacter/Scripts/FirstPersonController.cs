@@ -266,16 +266,5 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         }
 
-        void OnCollisionEnter(Collision col)
-        {
-            if (col.gameObject.tag == "Silla")
-            {
-                transform.position = new Vector3(-15.13f, 1.63f, 6.4f);
-            }
-            if (col.gameObject.tag == "Death")
-            {
-                transform.position = new Vector3(-15.13f, 1.63f, 6.4f);
-            }
-        }
     }
 }

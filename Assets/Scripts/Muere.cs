@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Deathwall : MonoBehaviour
+public class Muere : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,15 +16,15 @@ public class Deathwall : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision col)
+    public void OnCollisionEnter (Collision col)
     {
-        if(col.gameObject.tag == "Silla")
+        if (col.gameObject.tag == "Silla")
         {
-            transform.position = new Vector3(-15.13f, 1.63f, 6.4f);
+            transform.position = new Vector3(-15, 1.6f, 6.4f); 
         }
         if (col.gameObject.tag == "Death")
         {
-            transform.position = new Vector3(-15.13f, 1.63f, 6.4f);
+            transform.position = new Vector3(-15, 1.6f, 6.4f);
         }
     }
 }
