@@ -20,10 +20,12 @@ public class Muere : MonoBehaviour
     {
         if (col.gameObject.tag == "Silla")
         {
+            Debug.Log("fadsf");
             transform.position = new Vector3(-15, 1.6f, 6.4f); 
         }
         if (col.gameObject.tag == "Death")
         {
+            Debug.Log("fadsf");
             transform.position = new Vector3(-15, 1.6f, 6.4f);
         }
     }

@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueFrases:
   - Pulsa F para continuar
-  - 'Hola, vas a tener que buscar un obejeto por todo este espacio '
-  - Busca una pista por todo el lugar
-  - 'Con E agarras la silla y con la R la sueltas '
-  - En una computadora hay una pista
+  - Tenes que pasar por L2 sin tocar las sillas
+  - Luego agarra la esfera
+  - Con E agarras la esfera y con la R la soltas
   - Ya hablamos
   hasTalked: 0
