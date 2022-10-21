@@ -18,15 +18,9 @@ public class Muere : MonoBehaviour
 
     public void OnCollisionEnter (Collision col)
     {
-        if (col.gameObject.tag == "Silla")
+        if (col.gameObject.name == "Sillas")
         {
-            Debug.Log("fadsf");
             transform.position = new Vector3(-15.76f, 1.63f, 6.401f); 
-        }
-        if (col.gameObject.tag == "Death")
-        {
-            Debug.Log("fadsf");
-            transform.position = new Vector3(-15.76f, 1.63f, 6.401f);
         }
     }
 }

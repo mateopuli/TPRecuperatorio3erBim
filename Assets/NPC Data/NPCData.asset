@@ -15,7 +15,8 @@ MonoBehaviour:
   dialogueFrases:
   - Pulsa F para continuar
   - Tenes que pasar por L2 sin tocar las sillas
-  - Luego agarra la esfera
-  - Con E agarras la esfera y con la R la soltas
+  - Luego agarra el cilindro
+  - Con E agarras el cilindro y con la R lo soltas
+  - Traeme el cilindro para ganar
   - Ya hablamos
   hasTalked: 0

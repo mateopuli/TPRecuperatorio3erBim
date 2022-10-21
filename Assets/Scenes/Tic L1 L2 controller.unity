@@ -8291,11 +8291,11 @@ GameObject:
   - component: {fileID: 1107075361}
   - component: {fileID: 1103683847}
   - component: {fileID: 1104782151}
-  - component: {fileID: 1106984200}
   - component: {fileID: 1106984194}
-  - component: {fileID: 1106984286}
+  - component: {fileID: 1106984256}
+  - component: {fileID: 1106984254}
   m_Layer: 0
-  m_Name: Silla.026
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8325,11 +8325,11 @@ GameObject:
   - component: {fileID: 1107075363}
   - component: {fileID: 1103683841}
   - component: {fileID: 1104782145}
-  - component: {fileID: 1106984198}
   - component: {fileID: 1106984196}
-  - component: {fileID: 1106984284}
+  - component: {fileID: 1106984200}
+  - component: {fileID: 1106984198}
   m_Layer: 0
-  m_Name: Silla.027
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8359,17 +8359,51 @@ GameObject:
   - component: {fileID: 1107075365}
   - component: {fileID: 1103683899}
   - component: {fileID: 1104782203}
-  - component: {fileID: 1106984248}
   - component: {fileID: 1106984204}
-  - component: {fileID: 1106984302}
+  - component: {fileID: 1106984272}
+  - component: {fileID: 1106984270}
   m_Layer: 0
-  m_Name: Silla.024
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1106984198
+--- !u!65 &1106984198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106984195}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
+--- !u!1 &1106984199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107075367}
+  - component: {fileID: 1103683845}
+  - component: {fileID: 1104782149}
+  - component: {fileID: 1106984202}
+  - component: {fileID: 1106984268}
+  - component: {fileID: 1106984264}
+  m_Layer: 0
+  m_Name: Sillas
+  m_TagString: Death
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1106984200
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8383,44 +8417,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!1 &1106984199
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1107075367}
-  - component: {fileID: 1103683845}
-  - component: {fileID: 1104782149}
-  - component: {fileID: 1106984244}
-  - component: {fileID: 1106984202}
-  - component: {fileID: 1106984288}
-  m_Layer: 0
-  m_Name: Silla.025
-  m_TagString: Death
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!54 &1106984200
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984193}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984201
 GameObject:
@@ -8433,10 +8430,10 @@ GameObject:
   - component: {fileID: 1107075369}
   - component: {fileID: 1103683855}
   - component: {fileID: 1104782159}
-  - component: {fileID: 1106984208}
-  - component: {fileID: 1106984236}
+  - component: {fileID: 1106984232}
+  - component: {fileID: 1106984230}
   m_Layer: 0
-  m_Name: Silla.030
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8466,10 +8463,10 @@ GameObject:
   - component: {fileID: 1107075371}
   - component: {fileID: 1103683849}
   - component: {fileID: 1104782153}
+  - component: {fileID: 1106984208}
   - component: {fileID: 1106984206}
-  - component: {fileID: 1106984230}
   m_Layer: 0
-  m_Name: Silla.031
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8499,16 +8496,49 @@ GameObject:
   - component: {fileID: 1107075373}
   - component: {fileID: 1103683843}
   - component: {fileID: 1104782147}
-  - component: {fileID: 1106984238}
-  - component: {fileID: 1106984274}
+  - component: {fileID: 1106984248}
+  - component: {fileID: 1106984244}
   m_Layer: 0
-  m_Name: Silla.028
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1106984206
+--- !u!65 &1106984206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106984203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
+--- !u!1 &1106984207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107075375}
+  - component: {fileID: 1103683853}
+  - component: {fileID: 1104782157}
+  - component: {fileID: 1106984238}
+  - component: {fileID: 1106984236}
+  m_Layer: 0
+  m_Name: Sillas
+  m_TagString: Silla
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1106984208
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8522,43 +8552,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!1 &1106984207
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1107075375}
-  - component: {fileID: 1103683853}
-  - component: {fileID: 1104782157}
-  - component: {fileID: 1106984232}
-  - component: {fileID: 1106984270}
-  m_Layer: 0
-  m_Name: Silla.029
-  m_TagString: Silla
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!54 &1106984208
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984201}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984209
 GameObject:
@@ -8574,14 +8568,14 @@ GameObject:
   - component: {fileID: 1106984216}
   - component: {fileID: 1106984210}
   m_Layer: 0
-  m_Name: Silla.034
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984210
-MeshCollider:
+--- !u!65 &1106984210
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8590,10 +8584,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300208, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984211
 GameObject:
   m_ObjectHideFlags: 0
@@ -8608,14 +8601,14 @@ GameObject:
   - component: {fileID: 1106984214}
   - component: {fileID: 1106984212}
   m_Layer: 0
-  m_Name: Silla.035
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984212
-MeshCollider:
+--- !u!65 &1106984212
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8624,10 +8617,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300210, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984213
 GameObject:
   m_ObjectHideFlags: 0
@@ -8642,7 +8634,7 @@ GameObject:
   - component: {fileID: 1106984228}
   - component: {fileID: 1106984226}
   m_Layer: 0
-  m_Name: Silla.032
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8662,7 +8654,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984215
 GameObject:
@@ -8678,7 +8670,7 @@ GameObject:
   - component: {fileID: 1106984220}
   - component: {fileID: 1106984218}
   m_Layer: 0
-  m_Name: Silla.033
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8698,7 +8690,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984217
 GameObject:
@@ -8719,8 +8711,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984218
-MeshCollider:
+--- !u!65 &1106984218
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8729,10 +8721,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300206, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984219
 GameObject:
   m_ObjectHideFlags: 0
@@ -8765,7 +8756,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984221
 GameObject:
@@ -8781,14 +8772,14 @@ GameObject:
   - component: {fileID: 1106984224}
   - component: {fileID: 1106984222}
   m_Layer: 0
-  m_Name: Silla.036
+  m_Name: Sillas
   m_TagString: Silla
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984222
-MeshCollider:
+--- !u!65 &1106984222
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8797,10 +8788,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300212, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.5087089, y: 0.99938935, z: 0.60093224}
+  m_Center: {x: -0.000006914139, y: -0.2519264, z: 0.2131654}
 --- !u!1 &1106984223
 GameObject:
   m_ObjectHideFlags: 0
@@ -8833,7 +8823,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984225
 GameObject:
@@ -8853,8 +8843,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984226
-MeshCollider:
+--- !u!65 &1106984226
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8863,10 +8853,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300204, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984227
 GameObject:
   m_ObjectHideFlags: 0
@@ -8899,7 +8888,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984229
 GameObject:
@@ -8919,20 +8908,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984230
-MeshCollider:
+--- !u!65 &1106984230
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984203}
+  m_GameObject: {fileID: 1106984201}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300202, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984231
 GameObject:
   m_ObjectHideFlags: 0
@@ -8957,7 +8945,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984207}
+  m_GameObject: {fileID: 1106984201}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -8965,7 +8953,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984233
 GameObject:
@@ -9017,20 +9005,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984236
-MeshCollider:
+--- !u!65 &1106984236
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984201}
+  m_GameObject: {fileID: 1106984207}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300200, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984237
 GameObject:
   m_ObjectHideFlags: 0
@@ -9055,7 +9042,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984205}
+  m_GameObject: {fileID: 1106984207}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9063,7 +9050,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984239
 GameObject:
@@ -9108,11 +9095,11 @@ GameObject:
   - component: {fileID: 1107075409}
   - component: {fileID: 1103683895}
   - component: {fileID: 1104782199}
-  - component: {fileID: 1106984276}
   - component: {fileID: 1106984242}
   - component: {fileID: 1106984320}
+  - component: {fileID: 1106984318}
   m_Layer: 0
-  m_Name: Silla.018
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9142,32 +9129,29 @@ GameObject:
   - component: {fileID: 1107075411}
   - component: {fileID: 1103683889}
   - component: {fileID: 1104782193}
-  - component: {fileID: 1106984272}
   - component: {fileID: 1106984246}
-  - component: {fileID: 1106984318}
+  - component: {fileID: 1106984316}
+  - component: {fileID: 1106984314}
   m_Layer: 0
-  m_Name: Silla.019
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1106984244
-Rigidbody:
+--- !u!65 &1106984244
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984199}
+  m_GameObject: {fileID: 1106984205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984245
 GameObject:
   m_ObjectHideFlags: 0
@@ -9225,7 +9209,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984197}
+  m_GameObject: {fileID: 1106984205}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9233,7 +9217,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984249
 GameObject:
@@ -9246,11 +9230,11 @@ GameObject:
   - component: {fileID: 1107075417}
   - component: {fileID: 1103683903}
   - component: {fileID: 1104782207}
-  - component: {fileID: 1106984256}
   - component: {fileID: 1106984250}
-  - component: {fileID: 1106984308}
+  - component: {fileID: 1106984286}
+  - component: {fileID: 1106984284}
   m_Layer: 0
-  m_Name: Silla.022
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9280,11 +9264,11 @@ GameObject:
   - component: {fileID: 1107075419}
   - component: {fileID: 1103683897}
   - component: {fileID: 1104782201}
-  - component: {fileID: 1106984254}
   - component: {fileID: 1106984252}
-  - component: {fileID: 1106984304}
+  - component: {fileID: 1106984276}
+  - component: {fileID: 1106984274}
   m_Layer: 0
-  m_Name: Silla.023
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9314,32 +9298,29 @@ GameObject:
   - component: {fileID: 1107075421}
   - component: {fileID: 1103683891}
   - component: {fileID: 1104782195}
-  - component: {fileID: 1106984268}
   - component: {fileID: 1106984266}
-  - component: {fileID: 1106984316}
+  - component: {fileID: 1106984308}
+  - component: {fileID: 1106984304}
   m_Layer: 0
-  m_Name: Silla.020
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1106984254
-Rigidbody:
+--- !u!65 &1106984254
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984251}
+  m_GameObject: {fileID: 1106984193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984255
 GameObject:
   m_ObjectHideFlags: 0
@@ -9351,11 +9332,11 @@ GameObject:
   - component: {fileID: 1107075423}
   - component: {fileID: 1103683901}
   - component: {fileID: 1104782205}
-  - component: {fileID: 1106984264}
   - component: {fileID: 1106984262}
-  - component: {fileID: 1106984314}
+  - component: {fileID: 1106984302}
+  - component: {fileID: 1106984288}
   m_Layer: 0
-  m_Name: Silla.021
+  m_Name: Sillas
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9367,7 +9348,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984249}
+  m_GameObject: {fileID: 1106984193}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9375,7 +9356,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984257
 GameObject:
@@ -9490,22 +9471,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1106984264
-Rigidbody:
+--- !u!65 &1106984264
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984255}
+  m_GameObject: {fileID: 1106984199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984265
 GameObject:
   m_ObjectHideFlags: 0
@@ -9561,7 +9539,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984253}
+  m_GameObject: {fileID: 1106984199}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9569,7 +9547,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984269
 GameObject:
@@ -9589,20 +9567,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984270
-MeshCollider:
+--- !u!65 &1106984270
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984207}
+  m_GameObject: {fileID: 1106984197}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300198, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984271
 GameObject:
   m_ObjectHideFlags: 0
@@ -9627,7 +9604,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984243}
+  m_GameObject: {fileID: 1106984197}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9635,7 +9612,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984273
 GameObject:
@@ -9655,20 +9632,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984274
-MeshCollider:
+--- !u!65 &1106984274
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984205}
+  m_GameObject: {fileID: 1106984251}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300196, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984275
 GameObject:
   m_ObjectHideFlags: 0
@@ -9693,7 +9669,7 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984241}
+  m_GameObject: {fileID: 1106984251}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -9701,7 +9677,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &1106984277
 GameObject:
@@ -9817,20 +9793,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984284
-MeshCollider:
+--- !u!65 &1106984284
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984195}
+  m_GameObject: {fileID: 1106984249}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300194, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984285
 GameObject:
   m_ObjectHideFlags: 0
@@ -9849,20 +9824,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984286
-MeshCollider:
+--- !u!54 &1106984286
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984193}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300192, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  m_GameObject: {fileID: 1106984249}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1106984287
 GameObject:
   m_ObjectHideFlags: 0
@@ -9881,20 +9858,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984288
-MeshCollider:
+--- !u!65 &1106984288
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984199}
+  m_GameObject: {fileID: 1106984255}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300190, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984289
 GameObject:
   m_ObjectHideFlags: 0
@@ -10105,20 +10081,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984302
-MeshCollider:
+--- !u!54 &1106984302
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984197}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300188, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  m_GameObject: {fileID: 1106984255}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1106984303
 GameObject:
   m_ObjectHideFlags: 0
@@ -10137,20 +10115,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984304
-MeshCollider:
+--- !u!65 &1106984304
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984251}
+  m_GameObject: {fileID: 1106984253}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300186, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984305
 GameObject:
   m_ObjectHideFlags: 0
@@ -10202,20 +10179,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984308
-MeshCollider:
+--- !u!54 &1106984308
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984249}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300184, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  m_GameObject: {fileID: 1106984253}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1106984309
 GameObject:
   m_ObjectHideFlags: 0
@@ -10300,20 +10279,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984314
-MeshCollider:
+--- !u!65 &1106984314
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984255}
+  m_GameObject: {fileID: 1106984243}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300182, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984315
 GameObject:
   m_ObjectHideFlags: 0
@@ -10332,20 +10310,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984316
-MeshCollider:
+--- !u!54 &1106984316
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300180, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  m_GameObject: {fileID: 1106984243}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1106984317
 GameObject:
   m_ObjectHideFlags: 0
@@ -10364,20 +10344,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984318
-MeshCollider:
+--- !u!65 &1106984318
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106984243}
+  m_GameObject: {fileID: 1106984241}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300178, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.60093206, y: 0.99938935, z: 0.5087089}
+  m_Center: {x: -0.21316543, y: -0.2519264, z: -0.0000071525574}
 --- !u!1 &1106984319
 GameObject:
   m_ObjectHideFlags: 0
@@ -10396,20 +10375,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1106984320
-MeshCollider:
+--- !u!54 &1106984320
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106984241}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300176, guid: eda073de62a6d1243873507b1bffeaac, type: 3}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1106984417
 GameObject:
   m_ObjectHideFlags: 0
