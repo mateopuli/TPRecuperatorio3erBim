@@ -1,26 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Muere : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject perdio;
+    public float textTime;
+    float currTextTime;
+
     void Start()
     {
-        
+        perdio.SetActive(!perdio.activeInHierarchy);
+        currTextTime = textTime;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
-    }
+        if (perdio.activeInHierarchy)
+        {
+            currTextTime -= Time.deltaTime;
+            if (currTextTime <= 0)
+            {
+                perdio.SetActive(false);
+                currTextTime = textTime;
+            }
 
+        }
+    }
     public void OnCollisionEnter (Collision col)
     {
         if (col.gameObject.name == "Sillas")
         {
-            transform.position = new Vector3(-15.76f, 1.63f, 6.401f); 
+            perdio.SetActive(true);
+            Debug.Log("Colisiona");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            perdio.SetActive(true);
         }
     }
 }
